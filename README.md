@@ -35,7 +35,7 @@ A simple Android app that allows users to save and open websites as app-like exp
 
 ## 📦 Download APK
 
-👉 [Click here to download the latest APK](https://github.com/yourusername/WebsiteSaverApp/releases/latest)
+👉 [Click here to download the latest APK]((https://expo.dev/artifacts/eas/pVdNd2yG4qc2WT4qYjeGV8.apk))
 
 ---
 
