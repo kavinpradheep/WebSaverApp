@@ -19,7 +19,7 @@ A cross-platform mobile application built using **React Native** and **Expo Rout
 Scan the QR code below to download the APK and install the app on your Android device:
 
 <p align="center">
-  <img src="assets/qr/websitesaver-apk-qr.png" alt="Website Saver App QR Code" width="200" />
+  <img src="assets/images/websitesaver-apk-qr.png" alt="Website Saver App QR Code" width="200" />
   <br />
   <sub><i>Scan to download the APK</i></sub><br/>
   <a href="https://drive.google.com/file/d/1MBGkvNorvmwGn2k9A0txTO21TN2fbV-E/view?usp=sharing" target="_blank">📥 Direct APK Download</a>
