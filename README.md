@@ -1,50 +1,85 @@
-# Welcome to your Expo app 👋
+# Website Saver App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform mobile application built with **React Native** and **Expo Router** that allows users to save and organize websites offline. The app features a custom tab layout, theme support, and WebView integration.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Custom Tab Bar**: Navigate between screens with a visually appealing tab bar.
+- **Theme Support**: Light and dark themes powered by a custom `ThemeContext`.
+- **WebView Integration**: View and interact with websites directly within the app.
+- **Cross-Platform**: Works seamlessly on both Android and iOS.
 
+## Screens
+
+1. **Home Screen**: Main landing page for the app.
+2. **WebView Screen**: Allows users to interact with websites.
+
+## Technologies Used
+
+- **React Native**: Framework for building cross-platform mobile apps.
+- **Expo Router**: File-based routing for React Native apps.
+- **EventEmitter**: Used for managing WebView events.
+- **Ionicons**: Icon library for React Native.
+- **ThemeContext**: Custom context for managing light/dark themes.
+
+## Folder Structure
+
+```
+WebsiteSaverApp/
+├── app/
+│   ├── (tabs)/_layout.tsx   # Custom tab layout
+│   ├── index.tsx            # Home screen
+│   ├── webview.tsx          # WebView screen
+├── context/
+│   ├── ThemeContext.tsx     # Theme management
+├── assets/                  # App assets (icons, images, etc.)
+├── styles/                  # Shared styles
+├── package.json             # Project dependencies
+```
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kavinpradheep/WebSaverApp.git
+   cd WebsiteSaverApp
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the development server:
    ```bash
-    npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+## Running on Devices
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **iOS**: Use the Expo Go app or Xcode simulator.
+- **Android**: Use the Expo Go app or Android emulator.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## PWA Support
 
-## Get a fresh project
+This app can also function as a Progressive Web App (PWA). To enable PWA functionality:
+1. Add the `manifest.json` file to the project.
+2. Register the `serviceWorker.js` file.
 
-When you're ready, run:
+## Screenshots
 
-```bash
-npm run reset-project
-```
+| Home Screen | WebView Screen |
+|-------------|----------------|
+| ![Home](assets/screenshots/home.png) | ![WebView](assets/screenshots/webview.png) |
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## License
 
-## Learn more
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Contributing
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-## Join the community
+## Contact
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+For questions or feedback, reach out to [kavinpradheep](https://github.com/kavinpradheep).
