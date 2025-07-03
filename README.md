@@ -1,85 +1,69 @@
-# Website Saver App
+🌐 Website Saver App
+A cross-platform mobile application built using React Native and Expo Router that enables users to save, organize, and view websites offline. With a sleek custom tab layout, theme switching, and integrated WebView, the app delivers a smooth, intuitive experience on both Android and iOS devices.
 
-A cross-platform mobile application built with **React Native** and **Expo Router** that allows users to save and organize websites offline. The app features a custom tab layout, theme support, and WebView integration.
+🚀 Features
+🎨 Custom Tab Bar – Visually enhanced bottom navigation
 
-## Features
+🌗 Theme Support – Light and dark modes powered by ThemeContext
 
-- **Custom Tab Bar**: Navigate between screens with a visually appealing tab bar.
-- **Theme Support**: Light and dark themes powered by a custom `ThemeContext`.
-- **WebView Integration**: View and interact with websites directly within the app.
-- **Cross-Platform**: Works seamlessly on both Android and iOS.
+🌐 WebView Integration – View websites directly within the app
 
-## Screens
+📱 Cross-Platform – Works seamlessly on Android and iOS
 
-1. **Home Screen**: Main landing page for the app.
-2. **WebView Screen**: Allows users to interact with websites.
+💡 PWA Support – Optional support for Progressive Web Apps
 
-## Technologies Used
+📲 Download the App
+Scan the QR code below to download the APK and install the app on your Android device:
 
-- **React Native**: Framework for building cross-platform mobile apps.
-- **Expo Router**: File-based routing for React Native apps.
-- **EventEmitter**: Used for managing WebView events.
-- **Ionicons**: Icon library for React Native.
-- **ThemeContext**: Custom context for managing light/dark themes.
+<p align="center"> <img src="assets/qr/websitesaver-apk-qr.png" alt="Website Saver App QR Code" width="200" /> <br /> <sub><i>Scan to download the APK</i></sub><br/> <a href="https://drive.google.com/file/d/1MBGkvNorvmwGn2k9A0txTO21TN2fbV-E/view?usp=sharing" target="_blank">📥 Direct APK Download</a> </p>
+⚠️ Ensure “Install from unknown sources” is enabled on your Android device.
 
-## Folder Structure
+🖼️ Screens
+Home Screen – Landing page showing saved websites
 
-```
+WebView Screen – In-app browser to view content
+
+🧰 Tech Stack
+React Native – Cross-platform app framework
+
+Expo Router – File-based routing solution
+
+Ionicons – Icon support for modern UIs
+
+ThemeContext – Handles light/dark theme switching
+
+EventEmitter – Manages communication for WebView events
+
+📁 Project Structure
+bash
+Copy
+Edit
 WebsiteSaverApp/
 ├── app/
-│   ├── (tabs)/_layout.tsx   # Custom tab layout
-│   ├── index.tsx            # Home screen
-│   ├── webview.tsx          # WebView screen
+│   ├── (tabs)/_layout.tsx      # Custom tab layout
+│   ├── index.tsx               # Home screen
+│   ├── webview.tsx             # WebView screen
 ├── context/
-│   ├── ThemeContext.tsx     # Theme management
-├── assets/                  # App assets (icons, images, etc.)
-├── styles/                  # Shared styles
-├── package.json             # Project dependencies
-```
+│   └── ThemeContext.tsx        # Theme management
+├── assets/                     # Icons, QR code, etc.
+├── styles/                     # Shared styling
+├── package.json                # Dependencies
+🌐 PWA Support (Optional)
+To enable as a Progressive Web App:
 
-## Installation
+Add a valid manifest.json
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/kavinpradheep/WebSaverApp.git
-   cd WebsiteSaverApp
-   ```
+Register serviceWorker.js correctly in the entry point
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+🤝 Contributing
+Contributions are welcome!
+Feel free to open an issue or submit a pull request for improvements or fixes.
 
-3. Start the development server:
-   ```bash
-   npm start
-   ```
+📜 License
+Licensed under the MIT License.
+See the LICENSE file for details.
 
-## Running on Devices
+📬 Contact
+For any feedback or collaboration:
+kavinpradheep
 
-- **iOS**: Use the Expo Go app or Xcode simulator.
-- **Android**: Use the Expo Go app or Android emulator.
-
-## PWA Support
-
-This app can also function as a Progressive Web App (PWA). To enable PWA functionality:
-1. Add the `manifest.json` file to the project.
-2. Register the `serviceWorker.js` file.
-
-## Screenshots
-
-| Home Screen | WebView Screen |
-|-------------|----------------|
-| ![Home](assets/screenshots/home.png) | ![WebView](assets/screenshots/webview.png) |
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## Contact
-
-For questions or feedback, reach out to [kavinpradheep](https://github.com/kavinpradheep).
